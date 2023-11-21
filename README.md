@@ -14,7 +14,6 @@ Manager:
     
 
 Frontend:
-The provided HTML code is using several web technologies. Here's a breakdown:
 
 1. **HTML5:**
    - The document structure is defined using HTML5 tags such as `<!DOCTYPE html>`, `<html>`, `<head>`, `<meta>`, `<link>`, `<script>`, `<body>`, `<div>`, `<img>`, `<a>`, `<button>`, `<ul>`, `<li>`, `<nav>`, `<hr>`, `<p>`, etc.
