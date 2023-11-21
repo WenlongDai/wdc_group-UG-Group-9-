@@ -12,8 +12,34 @@ Manager:
     ID:1
     password:123456
     
-Here are the key technologies and concepts used in the provided code:
 
+Frontend:
+The provided HTML code is using several web technologies. Here's a breakdown:
+
+1. **HTML5:**
+   - The document structure is defined using HTML5 tags such as `<!DOCTYPE html>`, `<html>`, `<head>`, `<meta>`, `<link>`, `<script>`, `<body>`, `<div>`, `<img>`, `<a>`, `<button>`, `<ul>`, `<li>`, `<nav>`, `<hr>`, `<p>`, etc.
+
+2. **CSS:**
+   - External styles are linked using the `<link>` tag with references to both a local CSS file (`format.css`) and an external CSS file from PureCSS and Mapbox.
+
+3. **Vue.js:**
+   - The Vue.js library is included via `<script>` tags. It's a JavaScript framework for building user interfaces, and it's utilized to dynamically generate menu items based on data (`v-for="ITEM in top_menu"`) and bind values to the DOM (`{{ITEM.title}}`).
+
+4. **JavaScript:**
+   - Several JavaScript files are included using `<script>` tags, namely `vue.js` and `tool.js`. These scripts likely contain custom JavaScript code for additional functionality.
+
+5. **Mapbox:**
+   - Mapbox is integrated into the page using Mapbox GL JS library. The Mapbox API is used to display a map (`<div id='map'></div>`) with a specified style (`'mapbox://styles/mapbox/streets-v11'`). The access token is provided in the script (`mapboxgl.accessToken`).
+
+6. **Responsive Design:**
+   - PureCSS is used for styling, and it provides a responsive grid system and various styles for UI components. The class `pure-button pure-button-primary` is from PureCSS, styling a login button.
+
+7. **Asynchronous Loading:**
+   - The `defer` attribute is used for asynchronous loading of JavaScript files, ensuring that the scripts are executed in order after the HTML has been fully parsed.
+
+In summary, the provided HTML document uses HTML5 for structure, CSS for styling (including styles from PureCSS and Mapbox), Vue.js for dynamic content, JavaScript for scripting and functionality, and Mapbox for displaying an interactive map.
+
+Backend:
 1. **Express.js:**
    - Web application framework for Node.js.
 
